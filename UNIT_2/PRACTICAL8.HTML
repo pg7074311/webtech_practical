@@ -1,0 +1,59 @@
+<!-- Prince Gupta,ERP-11012-->
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors Example</title>
+    <style>
+        /* Universal Selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* ID Selector */
+        #heading {
+            color: darkblue;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .note {
+            color: green;
+            border: 2px solid green;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        /* Descendant Selector */
+        div p {
+            color: brown;
+        }
+
+        /* Group Selector */
+        h2, h3 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Different CSS Selectors</h1>
+
+    <h2>1. ID Selector</h2>
+    <p>This heading uses an ID selector.</p>
+
+    <h3>2. Class Selector</h3>
+    <p class="note">This paragraph is styled using a class selector.</p>
+
+    <h3>3. Descendant Selector</h3>
+    <div>
+        <p>This text is inside a div, styled using descendant selector.</p>
+    </div>
+
+    <h3>4. Group Selector</h3>
+    <p>h2 and h3 are styled together using a group selector.</p>
+
+    <h3>5. Universal Selector</h3>
+    <p>Applies font style to the whole page.</p>
+
+</body>
+</html>

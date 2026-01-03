@@ -1,0 +1,47 @@
+<!-- Prince Gupta,ERP-11012-->
+ <!DOCTYPE html>
+<head>
+<title>Responsive Page</title>
+<style>
+  body {
+    font-family: Arial;
+    margin: 0;
+    padding: 10px;
+    background: lightgray;
+  }
+  header, footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  main {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  @media (min-width: 600px) {
+    body { background: silver; }
+    main {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  @media (min-width: 900px) {
+    body { background: lightblue; }
+    main {
+      max-width: 900px;
+      margin: auto;
+    }
+  }
+</style>
+</head>
+<body>
+  <header><h2>My Responsive Page</h2></header>
+  <main>
+    <section><p>This is a mobile-first design.</p></section>
+    <section><p>Resize the window to see layout change!</p></section>
+  </main>
+  <footer><p>© 2025 MySite</p></footer>
+</body>
+</html>
